@@ -4,4 +4,8 @@ public class Test {
     public Test() {
         validTest = true;
     }
+
+    public Test(bool validTest) {
+        this.validTest = validTest;
+    }
 }
